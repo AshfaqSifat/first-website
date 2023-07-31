@@ -1,0 +1,26 @@
+body{
+    color: black;
+    background-color: rgb(223, 255, 251);
+    text-align: center;
+}
+img {
+    width: 25%;
+}
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#nav:hover{
+    background-color: black;
+    color:white
+}
+#one {
+    font-size: xx-large;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+}
+#two {
+    font-size: xx-large;
+}

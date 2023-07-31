@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(219, 255, 215);
+    font-size: x-large;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#nav:hover{
+    background-color: black;
+    color:white
+}
+
+img {
+    width: 100%;
+}
