@@ -21,3 +21,7 @@ h2 {
     font-size: xx-large;
     font-weight: 1000;
 }
+
+form {
+    display: flex;
+}

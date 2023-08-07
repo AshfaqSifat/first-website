@@ -15,12 +15,25 @@ img {
     background-color: black;
     color:white
 }
-#one {
-    font-size: xx-large;
-    text-align: justify;
-    display: flex;
-    justify-content: space-evenly;
+/* On larger screens, image and text are put next to each other */
+@media(min-width: 1000px) {
+    #one {
+        font-size: xx-large;
+        text-align: justify;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
+
 #two {
     font-size: xx-large;
+}
+/* On smaller screens, image and text are put on different lines so image doesn't stretch */
+@media(max-width: 1000px) {
+    #nav {
+        display: none;
+    }
+    img {
+        width: auto;
+    }
 }
